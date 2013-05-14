@@ -3,7 +3,9 @@ execute pathogen#infect()
 
 " Syntex Color Solarized
 syntax enable
+set t_Co=256
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 
 " Set Line Number, No Compatible, Auto Indent
