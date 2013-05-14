@@ -6,21 +6,15 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-" Set Line Number
+" Set Line Number, No Compatible, Auto Indent
 set nu
-
-" Set No Compatible
 set nocp
-
-" Set Auto Indent
 "set ai
 
-" Set tab space
+" Set tab space, 80 Columns
 set ts=4
 set sw=4
-
-" Set 80 Columns
-" set cc=80
+"set cc=80
 
 " Key Mapping
 nnoremap <silent> <F5>	:NERDTree<CR>
