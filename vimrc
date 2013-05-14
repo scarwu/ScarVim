@@ -8,6 +8,11 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" Powerline
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set laststatus=2
+
 " Set Line Number, No Compatible, Auto Indent
 set nu
 set nocp
