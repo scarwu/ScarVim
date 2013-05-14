@@ -1,6 +1,10 @@
+" Pathogen
 execute pathogen#infect()
-syntax on
-filetype plugin indent on
+
+" Syntex Color Solarized
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Set Line Number
 set nu
@@ -22,7 +26,14 @@ set sw=4
 nnoremap <silent> <F5>	:NERDTree<CR>
 nnoremap <silent> <F7>	gt<CR>
 nnoremap <silent> <F8>	gT<CR>
-nnoremap <silent> 	gg=G<CR>
+
+" Format
+nnoremap <silent> <C-F>	gg=G<CR>
+
+" Copy, Paste, Select All
+noremap <C-c> y
+noremap <C-v> P
+map <C-A> ggVG
 
 " Block Switch
 map <S-LEFT> <C-W>h
