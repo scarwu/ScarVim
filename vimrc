@@ -17,6 +17,8 @@ set laststatus=2
 " Set Line Number, No Compatible, Auto Indent
 set nu
 set nocp
+set binary
+set noeol
 "set ai
 
 " Set tab space, 80 Columns
