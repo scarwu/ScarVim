@@ -1,6 +1,11 @@
 # ScarVim
 
-My Vim
+My Vim Setting
+
+## Installation
+
+	git clone git://github.com/scarwu/ScarVim.git ~/.vim
+	ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Keymap
 
