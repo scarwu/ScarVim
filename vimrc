@@ -27,12 +27,12 @@ set sw=4
 "set cc=80
 
 " Key Mapping
-nnoremap <silent> <F5>	:NERDTree<CR>
-nnoremap <silent> <Tab>	:NERDTree<CR>
+nnoremap <silent> <Tab>	:NERDTreeToggle<CR>
 nnoremap <silent> <F7>	gt<CR>
 nnoremap <silent> <F8>	gT<CR>
 map <C-n> :tabnew<CR>
-map <C-w> ZZ
+"map <C-w> ZZ
+"nnoremap <silent> <C-s> :w<CR>
 
 " Format
 nnoremap <silent> <C-F>	gg=G<CR>
