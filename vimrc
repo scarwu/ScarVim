@@ -28,19 +28,18 @@ set sw=4
 
 " Key Mapping
 nnoremap <silent> <Tab>	:NERDTreeToggle<CR>
-nnoremap <silent> <F7>	gt<CR>
-nnoremap <silent> <F8>	gT<CR>
-map <C-n> :tabnew<CR>
-"map <C-w> ZZ
-"nnoremap <silent> <C-s> :w<CR>
+nnoremap <silent> <A-RIGHT>	gt<CR>
+nnoremap <silent> <A-LEFT>	gT<CR>
+nnoremap <C-N> :tabnew<CR>
 
 " Format
 nnoremap <silent> <C-F>	gg=G<CR>
 
 " Copy, Paste, Select All
-noremap <C-c> y
-noremap <C-v> P
-map <C-A> ggVG
+vnoremap <C-C> y
+nnoremap <C-V> P
+nnoremap <C-A> ggVG
+inoremap <C-A> <Esc>ggVG
 
 " Block Switch
 map <S-LEFT> <C-W>h
