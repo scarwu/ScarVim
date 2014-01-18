@@ -26,6 +26,9 @@ set ts=4
 set sw=4
 "set cc=80
 
+" Other
+let g:vim_markdown_folding_disabled=1
+
 " Key Mapping
 nnoremap <silent> <Tab>	:NERDTreeToggle<CR>
 nnoremap <silent> <A-RIGHT>	gt<CR>
