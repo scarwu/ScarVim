@@ -5,8 +5,8 @@ My Vim Setting
 ## Installation
 
 	git clone git://github.com/scarwu/ScarVim.git ~/.vim
-	sh ~/.vim/setup.sh
-	ln -s ~/.vim/vimrc ~/.vimrc
+	cd ~/.vim && ./setup.sh
+	cd ~ && ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Keymap
 
