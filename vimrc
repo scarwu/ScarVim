@@ -26,6 +26,7 @@ set scrolloff=3
 set tabstop=4
 set shiftwidth=4
 "set colorcolumn=80
+set backspace=indent,eol,start
 
 " Other
 let g:vim_markdown_folding_disabled=1
