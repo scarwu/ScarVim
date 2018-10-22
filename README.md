@@ -2,27 +2,26 @@
 
 My Vim Setting
 
-## Installation
+## Install
 
-	git clone git://github.com/scarwu/ScarVim.git ~/.vim
-	cd ~/.vim && ./setup.sh
-	cd ~ && ln -s ~/.vim/vimrc ~/.vimrc
+~~~
+curl https://raw.github.com/scarwu/ScarVim/master/install.sh | sh
+~~~
 
 ## Keymap
 
-	F5 / Tab      : Open NERDTree
-	F7 / Ctrl PgDn: Prev Tab
-	F8 / Ctrl PgUp: Next Tab
-
-	Ctrl n        : New Tab
-	Ctrl w        : Save & Close
-
-	Ctrl a        : Select All
-	Ctrl c        : Copy
-	Ctrl v        : Paste
-	Ctrl f        : Auto Format
-
-	Shift Left    : Switch Block to Left
-	Shift Right   : Switch Block to Right
-	Shift Up      : Switch Block to Up
-	Shift Down    : Switch Block to Down
+| Shortcut         | Function              |
+| ---------------- | --------------------- |
+| F5 / Tab         | Open NERDTree         |
+| F7 / Ctrl + PgDn | Prev Tab              |
+| F8 / Ctrl + PgUp | Next Tab              |
+| Ctrl + n         | New Tab               |
+| Ctrl + w         | Save & Close          |
+| Ctrl + a         | Select All            |
+| Ctrl + c         | Copy                  |
+| Ctrl + v         | Paste                 |
+| Ctrl + f         | Auto Format           |
+| Shift + Left     | Switch Block to Left  |
+| Shift + Right    | Switch Block to Right |
+| Shift + Up       | Switch Block to Up    |
+| Shift + Down     | Switch Block to Down  |
