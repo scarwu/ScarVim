@@ -5,7 +5,7 @@ My Vim Setting
 ## Install
 
 ~~~
-curl https://raw.github.com/scarwu/ScarVim/master/install.sh | sh
+curl https://raw.githubusercontent.com/scarwu/ScarVim/master/install.sh | sh
 ~~~
 
 ## Keymap
